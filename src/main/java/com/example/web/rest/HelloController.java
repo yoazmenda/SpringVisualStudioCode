@@ -11,7 +11,7 @@ public class HelloController {
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/")
-    public String greeting(@RequestParam(value="name", defaultValue="World") String name) {
+    public String greeting() {
         return "Hello from server";
     }
     
