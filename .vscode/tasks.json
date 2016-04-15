@@ -15,6 +15,13 @@
 				]
 			},
 			{
+				"taskName": "clean",
+				"suppressTaskName": true,
+				"args": [
+					"clean"
+				]
+			},
+			{
 				"taskName": "run",
 				"suppressTaskName": true,
 				"args": [
